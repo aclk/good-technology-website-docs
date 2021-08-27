@@ -68,6 +68,7 @@ this.fileReader = new FileReader("boxConfig.json");
 this.boxConfig = BoxConfig.readFrom(fileReader);
 this.boxAPI = BoxDeveloperEditionAPIConnection.getAppEnterpriseConnection(boxConfig);
 ```
+
 <!-- markdownlint-enable line-length -->
 
 The `boxConfig` assignment line will use the `boxConfig.json` file you
@@ -87,6 +88,7 @@ used to make API calls. At this point it is scoped to the
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -131,6 +133,7 @@ function addGroupUser(groupId, email) {
   });
 }
 ```
+
 <!-- markdownlint-enable line-length -->
 
 </Choice>
@@ -164,6 +167,7 @@ public void addGroupUser(String groupId, String userEmail) {
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -231,6 +235,7 @@ public void removeGroupUser(String groupId, String userEmail) {
   }
 }
 ```
+
 <!-- markdownlint-enable line-length -->
 
 </Choice>
@@ -240,6 +245,7 @@ public void removeGroupUser(String groupId, String userEmail) {
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -275,7 +281,6 @@ The next Box function we need has two main purposes.
 
 <Choice option='programming.platform' value='node' color='none'>
 
-  
 Replace the `getGroupId` function with the following.
 
 <!-- markdownlint-disable line-length -->
@@ -300,6 +305,7 @@ function getGroupId(groupName, callback) {
   });
 }
 ```
+
 <!-- markdownlint-enable line-length -->
 
 </Choice>
@@ -335,6 +341,7 @@ public String getGroupId(String groupName) {
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -395,6 +402,7 @@ function processContent(user, channel, itemType, itemId) {
   });
 }
 ```
+
 <!-- markdownlint-enable line-length -->
 
 </Choice>
@@ -439,6 +447,7 @@ public void processContent(JSONObject userResponse, String channel, String fType
   }
 }
 ```
+
 <!-- markdownlint-enable line-length -->
 
 </Choice>
@@ -448,6 +457,7 @@ public void processContent(JSONObject userResponse, String channel, String fType
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -480,4 +490,5 @@ I've set up my Box functions
 </Observe>
 
 [step2]: g://collaborations/connect-slack-to-group-collabs/configure-box
+
 [service-account]: g://getting-started/user-types/service-account/

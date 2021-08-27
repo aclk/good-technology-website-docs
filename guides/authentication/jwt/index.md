@@ -42,8 +42,8 @@ to act on behalf of any user in an enterprise.
 
 There are two ways you can verify an application's permissions:
 
-- using a public and private key pair
-- using a client id and client secret (Client Credentials Grant)
+* using a public and private key pair
+* using a client id and client secret (Client Credentials Grant)
 
 To learn more about these options visit our guide on using
 [JWT without SDKs][jwtnosdk]. 
@@ -64,12 +64,14 @@ applications leveraging JWT require explicit Box Admin approval before use.
 Server-side authentication with JWT is the ideal authentication method for apps
 that:
 
-- Work with users that don't have a Box account
-- Want to use their own identity system
-- Don't want users to have to know that they are using Box
-- Want to store data within the application's Box account and not within the the
+* Work with users that don't have a Box account
+* Want to use their own identity system
+* Don't want users to have to know that they are using Box
+* Want to store data within the application's Box account and not within the the
   user's Box account
 
 [app-type]: g://applications/select
+
 [sa]: g://getting-started/user-types/service-account
+
 [jwtnosdk]: g://authentication/jwt/without-sdk

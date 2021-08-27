@@ -41,4 +41,4 @@ using metadata with the Box API.
 
 * [Learn more about metadata scopes](g://metadata/scopes)
 * [Learn more about the different field types](g://metadata/fields) that can be
-used on a template.
+  used on a template.

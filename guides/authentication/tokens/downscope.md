@@ -114,4 +114,5 @@ downscoped token.
 </Message>
 
 [scopes]: guide://api-calls/permissions-and-errors/scopes
+
 [scopes_down]: guide://api-calls/permissions-and-errors/scopes/#scopes-for-downscoping

@@ -59,7 +59,7 @@ Returns:
 
 * `true` if the user's account existed and was deleted.
 * `false` if the user's account was not deleted for any reason (including
-because it didn't exist).
+  because it didn't exist).
 
 ### `deleteUserAssociation`
 
@@ -75,7 +75,7 @@ Returns:
 
 * `true` if the user's account existed and was deleted.
 * `false` if the user's account was not deleted for any reason (including
-because it didn't exist).
+  because it didn't exist).
 
 ## Instance Methods (Constructors / Destructors)
 
@@ -132,11 +132,11 @@ allowing you to focus on the business logic of your integration.
 Returns:
 
 * An [HttpResponse][sf-httpresponse] object with the response details from
-calling Box's APIs.
+  calling Box's APIs.
 * `Toolkit.BoxApiException` if there is any missing information from the
-HttpRequest input.
+  HttpRequest input.
 * `null` if there was an issue getting the authentication details for the
-Service Account. In this case, check `mostRecentError`.
+  Service Account. In this case, check `mostRecentError`.
 
 ## File Operations
 
@@ -182,7 +182,7 @@ Returns:
 Returns:
 
 * `string` returned is the Box folder id of the object root folder for the
-record id passed in.
+  record id passed in.
 
 ## Folder Operations
 
@@ -209,14 +209,14 @@ Returns:
 Returns:
 
 * `string` returned is the Box folder id of the object root folder for the
-record id passed in.
+  record id passed in.
 
 ### `getFolderUrl`
 
 * This method gets the embed widget URL for a particular record so customers
-can use their own embed logic if desired.
+  can use their own embed logic if desired.
 * This method respects seamless login settings so the URL will automatically
-log the user in if seamless login is enabled.
+  log the user in if seamless login is enabled.
 
 <!-- markdownlint-disable line-length -->
 
@@ -230,8 +230,8 @@ log the user in if seamless login is enabled.
 Returns:
 
 * `string` returned is a URL that points to the folder associated with the
-Salesforce record Id passed. This URL is for the Box Embed Widget and can be
-embedded in any Visualforce page.
+  Salesforce record Id passed. This URL is for the Box Embed Widget and can be
+  embedded in any Visualforce page.
 
 ### `createObjectFolderForRecordId`
 
@@ -247,7 +247,7 @@ Returns:
 
 * `string` returned is the Box folder Id of the root folder that was created.
 * If the root folder already existed, the value returned is the Box folder id
-of the root folder that already existed.
+  of the root folder that already existed.
 
 ### `createFolder`
 
@@ -265,7 +265,7 @@ Returns:
 
 * `string` returned is the Box folder id of the folder that was created.
 * `null` is returned if a folder is not created. In this case, check
-`mostRecentError` for details.
+  `mostRecentError` for details.
 
 ### `createFolderForRecordId`
 
@@ -283,9 +283,9 @@ Returns:
 
 * `string` returned is the Box folder id of the folder that was created.
 * `null` is returned if a folder is not created. In this case, check
-`mostRecentError` for details.
+  `mostRecentError` for details.
 * If the Salesforce record was already associated with a Box folder, the
-existing Box folder id is returned.
+  existing Box folder id is returned.
 
 ### `moveFolder`
 
@@ -319,9 +319,9 @@ Returns:
 Returns:
 
 * List returned is a collection of all folder mapping entries associated with
-this record.
+  this record.
 * Generally, it will be an empty list if no folder mapping entries exist, but
-under some circumstances, it could be `null`.
+  under some circumstances, it could be `null`.
 
 ### `getFolderIdByRecordId`
 
@@ -336,7 +336,7 @@ under some circumstances, it could be `null`.
 Returns:
 
 * `string` returned is the Box folder id associated with the Salesforce record
-id passed in.
+  id passed in.
 
 ### `getRecordIdByFolderId`
 
@@ -351,7 +351,7 @@ id passed in.
 Returns:
 
 * `id` returned is the Salesforce record id associated with the Box folder id
-passed in.
+  passed in.
 
 ### `createFolderAssociation`
 
@@ -367,10 +367,10 @@ passed in.
 Returns:
 
 * `box__FRUP__c` object - The FRUP object returned will be `null` if there was an
-error (check `mostRecentError`). Upon calling the `commitChanges` method, this
-FRUP entry will be inserted into the database. This method ensures consistency
-with other folder associations by not allowing the same folder to be associated
-with multiple records or vice versa.
+  error (check `mostRecentError`). Upon calling the `commitChanges` method, this
+  FRUP entry will be inserted into the database. This method ensures consistency
+  with other folder associations by not allowing the same folder to be associated
+  with multiple records or vice versa.
 
 ## Collaboration Methods
 
@@ -422,6 +422,9 @@ Returns:
 <!-- i18n-enable localize-links -->
 
 [collab-type]: https://support.box.com/hc/en-us/articles/360044196413-Understanding-Collaborator-Permission-Levels
+
 [sf-httprequest]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httprequest.htm
+
 [sf-httpresponse]: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_httpresponse.htm#apex_classes_restful_http_httpresponse
+
 <!-- i18n-disable localize-links -->

@@ -55,11 +55,11 @@ using a public and private key pair.
 
 ### Prerequisites
 
-- A Custom Application using JWT authentication within the 
+* A Custom Application using JWT authentication within the 
   [Developer Console][devconsole]
-- A private key configuration file named `config.json`, which can be downloaded
+* A private key configuration file named `config.json`, which can be downloaded
   from the configuration tab of the [Developer Console][devconsole]
-- Ensure your application is [authorized][auth] within the Box Admin Console
+* Ensure your application is [authorized][auth] within the Box Admin Console
 
 ### 1. Read JSON configuration
 
@@ -647,10 +647,10 @@ For the header the following parameters are supported.
 
 <!-- markdownlint-disable line-length -->
 
-| Parameter                | Type    | Description                                                                                                                                                                  |
-| ------------------------ | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `algorithm`, required          | String  | The encryption algorithm used to sign the JWT claim. This can be one of RS256, RS384, or RS512.                                                                                                                                     |
-| `keyid`, required          | String  |The ID of the public key used to sign the JWT. Not required, though essential when multiple key pairs are defined for an application.       |
+| Parameter             | Type   | Description                                                                                                                           |
+| --------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `algorithm`, required | String | The encryption algorithm used to sign the JWT claim. This can be one of RS256, RS384, or RS512.                                       |
+| `keyid`, required     | String | The ID of the public key used to sign the JWT. Not required, though essential when multiple key pairs are defined for an application. |
 
 <!-- markdownlint-enable line-length -->
 
@@ -844,7 +844,11 @@ $access_token = json_decode($data)->access_token;
 The code in this guide is available on [GitHub][samples].
 
 [samples]: https://github.com/box-community/samples-docs-authenticate-with-jwt-api
+
 [devconsole]: https://app.box.com/developers/console
+
 [configfile]: g://authentication/jwt/jwt-setup/#jwt-keypair
+
 [ccg]: g://authentication/jwt/without-sdk/#client-credentials-grant
+
 [auth]: g://authorization

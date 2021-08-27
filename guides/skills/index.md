@@ -44,7 +44,7 @@ The end-to-end process of a Skills application is as follows.
 5. [Store the metadata on the file](guide://skills/handle/metadata) - Once the
    processing service has extracted the metadata for the file, those insights
    can be stored back on the uploaded file as custom metadata.
-   
+
 <Message>
 
 To simplify your integration with Box Skills, a [Skills

@@ -69,7 +69,7 @@ preview files on Box.
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | iOS        | [Browse SDK][iosbrowsesdk], [Share SDK][iossharesdk], [Preview SDK][iospreviewsdk]                                                                                                    |
 | Android    | [Browse SDK](https://github.com/box/box-android-browse-sdk), [Share SDK](https://github.com/box/box-android-share-sdk), [Preview SDK](https://github.com/box/box-android-preview-sdk) |
-| Javascript | [Box UI Elements](guide://embed/ui-elements/)                                                                                                                                                |
+| Javascript | [Box UI Elements](guide://embed/ui-elements/)                                                                                                                                         |
 
 <!-- markdownlint-enable line-length -->
 
@@ -115,19 +115,35 @@ for these tools.
 </Message>
 
 [javasdk]: https://github.com/box/box-java-sdk
+
 [dotnetsdk]: https://github.com/box/box-windows-sdk-v2
+
 [pythonsdk]: https://github.com/box/box-python-sdk
+
 [nodesdk]: https://github.com/box/box-node-sdk
+
 [iossdk]: https://github.com/box/box-ios-sdk
+
 [androidsdk]: https://github.com/box/box-android-sdk
+
 [cli]: https://github.com/box/boxcli
+
 [forum]: https://community.box.com/t5/Platform-and-Development-Forum/bd-p/DeveloperForum
+
 [browseimg]: ./browse.jpg
+
 [shareimg]: ./share.jpg
+
 [previewimg]: ./preview.jpg
+
 [iosbrowsesdk]: https://github.com/box/box-ios-browse-sdk
+
 [iossharesdk]: https://github.com/box/box-ios-share-sdk
+
 [iospreviewsdk]: https://github.com/box/box-ios-preview-sdk
+
 [salesforcesdk]: https://github.com/box/box-salesforce-sdk
+
 [rubysdk]: https://github.com/cburnette/boxr
+
 [jssdk]: https://github.com/allenmichael/box-javascript-sdk

@@ -37,6 +37,6 @@ We recommend the following resource for anyone who wants to learn more about
 using Postman with the Box API.
 
 * [The official Postman Get Started
-guide](https://learning.getpostman.com/getting-started/) from the Postman
-team.
+  guide](https://learning.getpostman.com/getting-started/) from the Postman
+  team.
 * [Learn how to refresh your access token](g://tooling/postman/refresh) within Postman.

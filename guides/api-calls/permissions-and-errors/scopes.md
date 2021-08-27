@@ -153,10 +153,10 @@ Additionally, for JWT applications, the application must be configured with
 
 ### Manage webhooks
 
-|                       |                   |
-| --------------------- | ----------------- |
-| **OAuth Scope**       | `manage_webhook`  |
-| **Application Scope** | Manage webhooks   |
+|                       |                  |
+| --------------------- | ---------------- |
+| **OAuth Scope**       | `manage_webhook` |
+| **Application Scope** | Manage webhooks  |
 
 Gives an application permission to create webhooks for a user.
 Please review webhook [limitations](g://webhooks/v2/limitations_v2). Most
@@ -202,10 +202,10 @@ These scopes can be requested by opening a ticket via our support channels.
 
 ### Manage signature requests
 
-|                       |                            |
-| --------------------- | -------------------------- |
-| **OAuth Scope**       | `sign_requests.readwrite`  |
-| **Application Scope** | Manage signature requests  |
+|                       |                           |
+| --------------------- | ------------------------- |
+| **OAuth Scope**       | `sign_requests.readwrite` |
+| **Application Scope** | Manage signature requests |
 
 Gives an application permission to get, create, cancel, and resend sign
 requests.
@@ -216,9 +216,9 @@ enabled.
 
 ### Manage Box Relay
 
-|                       |                            |
-| --------------------- | -------------------------- |
-| **OAuth Scope**       | `manage_triggers`  |
+|                       |                   |
+| --------------------- | ----------------- |
+| **OAuth Scope**       | `manage_triggers` |
 | **Application Scope** | Manage Box Relay  |
 
 Gives an application permission to get workflows and start flows of type `WORKFLOW_MANUAL_START`
@@ -243,11 +243,11 @@ scopes, log in to your paid enterprise account or
 
 ### Manage Legal Holds
 
-|                       |                           |
-| --------------------- | ------------------------- |
-| **OAuth Scope**       | `manage_legal_holds`      |
-| **Application Scope** | Manage retention policies |
-| **Depends on**        | `enterprise_content`-scope               |
+|                       |                            |
+| --------------------- | -------------------------- |
+| **OAuth Scope**       | `manage_legal_holds`       |
+| **Application Scope** | Manage retention policies  |
+| **Depends on**        | `enterprise_content`-scope |
 
 Gives an application permission to view and create retention policies
 with Box Governance. This requires the enterprise to have purchased Box
@@ -347,24 +347,39 @@ The standard OAuth scopes are also supported when downscoping.
 <!-- i18n-enable localize-links -->
 
 [console]: https://app.box.com/developers/console
+
 [ui-elements]: https://github.com/box/box-ui-elements
+
 [pricing]: https://www.box.com/pricing/platform
+
 [reference]: https://developer.box.com/reference
+
 <!-- i18n-disable localize-links -->
 
 [at]: g://authentication/tokens
+
 [security]: g://security
+
 [jwt]: g://authentication/jwt
+
 [mu]: g://getting-started/user-types/managed-users
+
 [au]: g://authentication/jwt/as-user
+
 [uat]: g://authentication/jwt/user-access-tokens
+
 [appaccess]: g://authentication/jwt/jwt-setup/#application-access
+
 [appu]: g://getting-started/user-types/app-users
+
 <!-- i18n-enable localize-links -->
 
 [governance]: https://www.box.com/security/governance-and-compliance
+
 <!-- i18n-disable localize-links -->
 
 [suppress]: g://api-calls/suppress-notifications
+
 [ds]: g://authentication/tokens/downscope
+
 [sa]: g://getting-started/user-types/service-account

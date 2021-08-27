@@ -93,4 +93,5 @@ response to check if the existing file is identical to the one it is trying to
 upload.
 
 [chunked]: g://uploads/chunked
+
 [chunkedsession]: g://uploads/chunked/create-session

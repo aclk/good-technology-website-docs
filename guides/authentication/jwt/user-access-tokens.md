@@ -230,4 +230,5 @@ Learn more about manually using JWT authentication
 </CTA>
 
 [devconsole]: https://app.box.com/developers/console
+
 [sa]: g://getting-started/user-types/service-account

@@ -80,4 +80,5 @@ Collection** into Postman.
 </Postman>
 
 [register]: https://identity.getpostman.com/signup
+
 [postman]: https://getpostman.com

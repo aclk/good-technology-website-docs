@@ -51,6 +51,7 @@ element.
 
 Box Annotations can be used by pulling from our [NPM
 package](https://www.npmjs.com/package/box-annotations).
+
 <!-- i18n-disable localize-links -->
 
 ## Initialization
@@ -245,26 +246,26 @@ possible annotators.
 
 <!-- markdownlint-disable line-length -->
 
-- `annotator.init()` initializes the annotator.
-- `annotator.isModeAnnotatable(/* String */ type)` returns whether or not the
+* `annotator.init()` initializes the annotator.
+* `annotator.isModeAnnotatable(/* String */ type)` returns whether or not the
   current annotation mode is enabled for the current viewer/annotator.
-- `annotator.showModeAnnotateButton(/* String */ currentMode)` shows the
+* `annotator.showModeAnnotateButton(/* String */ currentMode)` shows the
   annotate button for the specified annotation mode.
-- `annotator.getAnnotateButton(/* String */ annotatorSelector)` gets the
+* `annotator.getAnnotateButton(/* String */ annotatorSelector)` gets the
   annotation button element.
-- `annotator.showAnnotations()` fetches and shows saved annotations.
-- `annotator.hideAnnotations()` hides annotations.
-- `annotator.hideAnnotationsOnPage(/* number */ pageNum)` hides annotations on a
+* `annotator.showAnnotations()` fetches and shows saved annotations.
+* `annotator.hideAnnotations()` hides annotations.
+* `annotator.hideAnnotationsOnPage(/* number */ pageNum)` hides annotations on a
   specified page.
-- `annotator.setScale()` sets the zoom scale.
-- `annotator.toggleAnnotationHandler()` toggles annotation modes on and off.
+* `annotator.setScale()` sets the zoom scale.
+* `annotator.toggleAnnotationHandler()` toggles annotation modes on and off.
   When an annotation mode is on, annotation threads will be created at that
   location.
-- `annotator.disableAnnotationMode(/* String */ mode, /* HTMLElement */ buttonEl)` disables the specified annotation mode.
-- `annotator.enableAnnotationMode(/* String */ mode, /* HTMLElement */ buttonEl)` enables the specified annotation mode.
-- `annotator.getAnnotatedEl(/* HTMLElement */ containerEl)` determines the
+* `annotator.disableAnnotationMode(/* String */ mode, /* HTMLElement */ buttonEl)` disables the specified annotation mode.
+* `annotator.enableAnnotationMode(/* String */ mode, /* HTMLElement */ buttonEl)` enables the specified annotation mode.
+* `annotator.getAnnotatedEl(/* HTMLElement */ containerEl)` determines the
   annotated element in the viewer.
-- `annotator.createAnnotationThread(/* Annotation[] */ annotations, /* Object */ location, /* String */ [annotation type])`
+* `annotator.createAnnotationThread(/* Annotation[] */ annotations, /* Object */ location, /* String */ [annotation type])`
   creates the proper type of annotation thread, adds it to the in-memory map, and returns it.
 
 <!-- markdownlint-enable line-length -->
@@ -301,13 +302,13 @@ annotator.removeListener(EVENTNAME, listener);
 
 `EVENTNAME` can be one of the following
 
-- `annotator` event will be triggered when we have the annotator instance first
+* `annotator` event will be triggered when we have the annotator instance first
   available. Box Annotations trigger this event before `load` so that clients can
   attach their listeners before the `load` event is triggered from Box Content
   Preview.
-- `annotationsfetched` event will be triggered when annotations have been fetched
+* `annotationsfetched` event will be triggered when annotations have been fetched
   from the Box API.
-- `annotationmodeenter` event will be triggered on when an annotation mode is
+* `annotationmodeenter` event will be triggered on when an annotation mode is
   entered. The event data will contain:
 
 ```js
@@ -613,4 +614,5 @@ Supported image file extensions: `ai`, `bmp`, `dcm`, `eps`, `gif`, `png`, `ps`,
 <!-- i18n-enable localize-links -->
 
 [filetypes]: https://support.box.com/hc/en-us/articles/360043695794-Viewing-Different-File-Types-Supported-in-Box-Content-Preview
+
 <!-- i18n-disable localize-links -->

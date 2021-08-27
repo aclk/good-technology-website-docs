@@ -124,11 +124,11 @@ To enable full screen capabilities for the Box Embed snippet, include one or mor
 of the following parameters if you want the object to be viewable in full screen
 within an `<iframe>`:
 
-- `allowfullscreen`
-- `webkitallowfullscreen`
-- `mozallowfullscreen`
-- `oallowfullscreen`
-- `msallowfullscreen`
+* `allowfullscreen`
+* `webkitallowfullscreen`
+* `mozallowfullscreen`
+* `oallowfullscreen`
+* `msallowfullscreen`
 
 ## Expiring Embed Links
 
@@ -225,4 +225,5 @@ and **print** options might not show in mobile browsers.
 <!-- i18n-enable localize-links -->
 
 [logo]: https://support.box.com/hc/en-us/articles/360044193633-Customize-Your-Account-s-Branding
+
 <!-- i18n-enable localize-links -->

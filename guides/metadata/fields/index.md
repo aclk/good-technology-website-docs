@@ -25,7 +25,7 @@ one of the following types:
 <!-- markdownlint-disable line-length -->
 
 |                                                   |                                               |
-|---------------------------------------------------|-----------------------------------------------|
+| ------------------------------------------------- | --------------------------------------------- |
 | [`string`](g://metadata/fields/string)            | A text field                                  |
 | [`float`](g://metadata/fields/float)              | A numeric input field                         |
 | [`date`](g://metadata/fields/date)                | A date picker field                           |

@@ -56,10 +56,10 @@ other users without explicitly getting access them.
 
 Before we can get started, you will need to have completed the following steps.
 
-- Create a Box Application within the developer console
-- Create and download the private key configuration file for your application
+* Create a Box Application within the developer console
+* Create and download the private key configuration file for your application
   and save it as `config.json`
-- Ensure your Box Application is approved for usage within your enterprise
+* Ensure your Box Application is approved for usage within your enterprise
 
 ## 1. Read JSON configuration
 

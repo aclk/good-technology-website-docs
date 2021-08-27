@@ -36,9 +36,9 @@ There are also two optional parameters that may be set when deleting a user
 account:
 
 * force: Whether the user should be deleted even if the account still has
-content in it.
+  content in it.
 * notify: Whether the user will receive a notification that the account was
-deleted.
+  deleted.
 
 <Message type='notice'>
 

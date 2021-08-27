@@ -43,9 +43,9 @@ other users without explicitly getting access them.
 
 Before we can get started, you will need to have completed the following steps.
 
-- Create a Box Application within the developer console
-- Ensure the application is configured to use App Token authentication
-- Generate a primary and secondary App Token for the application and store the
+* Create a Box Application within the developer console
+* Ensure the application is configured to use App Token authentication
+* Generate a primary and secondary App Token for the application and store the
   tokens somewhere in your code.
 
 ## Initializing an SDK client

@@ -28,9 +28,9 @@ those two accounts is either a unique ID or an email address.
 To make that association, a Box account may be created in a few ways:
 
 * Using the `external_app_user_id` field of a Box user to store the unique ID
- from the SSO provider.
+  from the SSO provider.
 * Using the `login` field of a Box user to store the unique email from the SSO
- provider (managed users only).
+  provider (managed users only).
 
 ## Create association with `external_app_user_id`
 
@@ -45,7 +45,7 @@ SSO user record you will need two pieces of information from the SSO provider:
 
 * UID (required): The unique identifier from the SSO user record.
 * Name (optional): To maintain uniformity between the records, the SSO user
- name may be extracted to associate with the Box user record.
+  name may be extracted to associate with the Box user record.
 
 Once available, make a request to create a new app user, supplying the optional
 `external_app_user_id` definition in the user parameters.
@@ -113,7 +113,7 @@ provider:
 
 * Email (required): The unique email from the SSO user record.
 * Name (optional): To maintain uniformity between the records, the SSO user
- name may be extracted to associate with the Box user record.
+  name may be extracted to associate with the Box user record.
 
 Once available, make a request to create a new managed user, supplying the
 SSO user record email address for the login.

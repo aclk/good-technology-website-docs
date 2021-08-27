@@ -45,7 +45,7 @@ application access to the user's data.
 
 Client-side authentication is the ideal authentication method for apps that:
 
-- Work with users that already have existing Box accounts
-- Want or require users to know that they are using Box
-- Want to store data within the user's Box account and not within the the
-application's Box account
+* Work with users that already have existing Box accounts
+* Want or require users to know that they are using Box
+* Want to store data within the user's Box account and not within the the
+  application's Box account

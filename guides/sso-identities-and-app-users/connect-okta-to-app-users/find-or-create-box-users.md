@@ -67,11 +67,11 @@ const box = (() => {
 This object defines a number of items:
 
 * Configuration: A new instance of the Box Node SDK is instantiated and made
- available to the object functions, along with a number of variables.
+  available to the object functions, along with a number of variables.
 * `validateUser` function: Will house the code to validate whether a Box user
- exists for an associated Okta user.
+  exists for an associated Okta user.
 * `createUser` function: Creates a new Box user bound to the associated Okta
- user ID.
+  user ID.
 
 With that structure defined, replace the `// TODO: CREATE USER` section with
 the following code.
@@ -118,9 +118,9 @@ These methods will handle the Box user validation and creation. Breaking them
 down:
 
 * `validateUser`: Will house the code to validate whether a Box user
- exists for an associated Okta user.
+  exists for an associated Okta user.
 * `createUser`: Creates a new Box user bound to the associated Okta
- user ID.
+  user ID.
 
 With those methods defined, replace `# TODO: CREATE USER` with the following
 code:
@@ -145,6 +145,7 @@ which will define the binding between the two user records.
 <Choice option='programming.platform' value='python' color='none'>
 
 In your local application directory, load the `server.py` file created in step
+
 1.
 
 Add the following `Box` class object to the existing code, below the route
@@ -170,11 +171,11 @@ class Box(object):
 This class defines:
 
 * `init`: When initialized, a new instance of the Box Python SDK is
- instantiated and made available to the object methods.
+  instantiated and made available to the object methods.
 * `validateUser` method: Accepting a user object as input, this will house the
- code to validate whether a Box user exists for an associated Okta user.
+  code to validate whether a Box user exists for an associated Okta user.
 * `createUser` method: Accepting a user object as input, this creates a new Box
- user bound to the associated Okta user ID.
+  user bound to the associated Okta user ID.
 
 With that class defined, replace the `# TODO: CREATE USER` section with
 the following code.
@@ -226,6 +227,7 @@ static async Task validateUser(string name, string sub)
   }
 }
 ```
+
 <!-- markdownlint-enable line-length -->
 
 Within the code block a new Box .NET SDK client is created using the
@@ -263,6 +265,7 @@ A diagnostic message is then written back stating that the new user was created.
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -410,6 +413,7 @@ application.
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -522,6 +526,7 @@ Box, and a diagnostic message is written back stating the current user name.
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>

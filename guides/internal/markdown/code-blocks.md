@@ -23,11 +23,11 @@ source_url: >-
 Not all code samples exist in the SDK or CLI documentation. You can add new code
 samples using standard Markdown back ticks.
 
-~~~sh
+````sh
 ```js
 console.log('Hello, World!')
 ```
-~~~
+````
 
 <H>
 
@@ -49,13 +49,13 @@ code block to ensure appropriate syntax highlighting is applied.
 To highlight a line in the code sample we support Prism's
 [line-highlight](https://prismjs.com/plugins/line-highlight/) plugin.
 
-~~~sh
+````sh
 ```js;highlight=2
 let value = 1
 value+=1
 console.dir(value)
 ```
-~~~
+````
 
 <H>
 

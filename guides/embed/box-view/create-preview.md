@@ -28,7 +28,7 @@ using two different methods:
 
 * Direct embed: A standard HTML `<iframe>` component with a custom embed link.
 * Customized previewer: A fully customized preview widget using Box
-[UI Elements][uie].
+  [UI Elements][uie].
 
 ## Direct Embed (`iframe`)
 
@@ -164,9 +164,9 @@ preview.show("FILE_ID", "ACCESS_TOKEN", {
 Replace the placeholders in the code sample with the following:
 
 * `FILE_ID`: The ID of the file uploaded to the App Token application, which can
-be obtained from the object returned when uploading the file.
+  be obtained from the object returned when uploading the file.
 * `ACCESS_TOKEN`: The primary Access Token set up when configuring the
-application or a downscoped version of the token.
+  application or a downscoped version of the token.
 
 <Message type='warning'>
 

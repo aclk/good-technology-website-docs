@@ -247,11 +247,11 @@ preview.removeListener(EVENTNAME, listener);
 
 `EVENTNAME` can be one of the following:
 
-- `viewer` event will be triggered when we have the viewer instance first
+* `viewer` event will be triggered when we have the viewer instance first
   available. This will be the same object that is also a property included in
   the `load` event. Preview triggers this event before `load` so that clients
   can attach their listeners before the `load` event is triggered.
-- `load` event will be triggered on every preview load when `show()` is called
+* `load` event will be triggered on every preview load when `show()` is called
   or if inter-preview navigation occurs. The event data will contain:
 
 ```js
@@ -261,10 +261,10 @@ metrics: {...},   // Performance metrics
 file: {...}       // Box file object with properties defined in file.js
 ```
 
-- `navigate` event will be triggered when navigation happens. The event includes
+* `navigate` event will be triggered when navigation happens. The event includes
   the file ID of the file being navigated to, and this event will trigger before
   `load`.
-- `notification` event will be triggered when either the preview wrapper or one
+* `notification` event will be triggered when either the preview wrapper or one
   of the viewers wants to notify something like a warning or non-fatal error. The
   event data will contain:
 
@@ -273,7 +273,7 @@ message: 'message', // Message to show
 type: 'warning'    // 'warning', 'notice', or 'error'
 ```
 
-- `viewerevent` Each viewer will trigger its own sets of events. For example, the
+* `viewerevent` Each viewer will trigger its own sets of events. For example, the
   Image viewer will trigger `rotate` or `resize`, etc. while other viewers may trigger
   another set of events. The preview wrapper will also re-emit events at the
   preview level, with event data containing:
@@ -358,6 +358,7 @@ more, see [Dedicated Scopes for Box UI Elements][scopes].
 <Message>
 
 # Enable highlight annotations with scopes The highlight scope is not included
+
 with `annotation_edit` and `annotation_view_all` scopes. The downscoped access
 token will need to include the `item_download` scope to enable highlighting.
 
@@ -379,7 +380,9 @@ token will need to include the `item_download` scope to enable highlighting.
 <!-- i18n-enable localize-links -->
 
 [filetypes]: https://support.box.com/hc/en-us/articles/360043695794-Viewing-Different-File-Types-Supported-in-Box-Content-Preview
+
 <!-- i18n-disable localize-links -->
 
 [downscope]: guide://authentication/tokens/downscope
+
 [scopes]: g://api-calls/permissions-and-errors/scopes

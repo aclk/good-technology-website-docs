@@ -68,7 +68,7 @@ For example:
 
 <!-- markdownlint-enable line-length -->
 
-<Message type=tip>
+<message type="tip"></message>
 
 You can drag the csv file from the Finder/File Explorer to the
 terminal/command line window to auto-populate the path.
@@ -102,7 +102,7 @@ Avatar URL: ''
 Notification Email: []
 ```
 
-<Message type=tip>
+<message type="tip"></message>
 
 By default, JWT applications automatically obtain an Access Token for the
 Service Account. It is possible to change the default user, but this guide
@@ -112,9 +112,9 @@ assumes you do not do this.
 
 ## Summary
 
-- You installed the CLI
-- You configured the CLI to point to your application's configuration file
-- You confirmed the user associated with your Access Token
+* You installed the CLI
+* You configured the CLI to point to your application's configuration file
+* You confirmed the user associated with your Access Token
 
 <Next>
 
@@ -123,7 +123,11 @@ I installed and configured the CLI
 </Next>
 
 [cli]: https://github.com/box/boxcli
+
 [auth]: g://authentication/jwt/without-sdk/
+
 [sa]: g://getting-started/user-types/service-account/
+
 [at]: g://authentication/tokens/
+
 [dc]: https://app.box.com/developers/console

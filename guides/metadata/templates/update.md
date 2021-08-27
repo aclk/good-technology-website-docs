@@ -59,7 +59,7 @@ The operation `editTemplate` allows for editing any of the base properties of
 the template, like the `displayName`, `copyInstanceOnItemCopy` and more.
 
 | Parameter |                                                 |
-|-----------|-------------------------------------------------|
+| --------- | ----------------------------------------------- |
 | `data`    | An object representing the properties to change |
 
 ```json
@@ -87,7 +87,7 @@ This will affect existing instances of this template.
 The operation `addField` adds an field to a template.
 
 | Parameter |                                     |
-|-----------|-------------------------------------|
+| --------- | ----------------------------------- |
 | `data`    | An object representing field to add |
 
 ```json
@@ -119,7 +119,7 @@ The operation `reorderFields` reorders the list of fields in a template to match
 the requested field list.
 
 | Parameter   |                                                   |
-|-------------|---------------------------------------------------|
+| ----------- | ------------------------------------------------- |
 | `fieldKeys` | The new list of field keys in the requested order |
 
 ```json
@@ -155,7 +155,7 @@ field like the `displayName`, `description`, `key`, and `hidden` state.
 <!-- markdownlint-disable line-length -->
 
 | Parameter  |                                                                |
-|------------|----------------------------------------------------------------|
+| ---------- | -------------------------------------------------------------- |
 | `data`     | An object representing the new properties to set for the field |
 | `fieldKey` | The key of the field to be edited                              |
 
@@ -189,7 +189,7 @@ The operation `removeField` removes an field from a template.
 <!-- markdownlint-disable line-length -->
 
 | Parameter  |                                                  |
-|------------|--------------------------------------------------|
+| ---------- | ------------------------------------------------ |
 | `fieldKey` | The key of the field to remove from the template |
 
 <!-- markdownlint-enable line-length -->
@@ -219,12 +219,12 @@ some additional operations to change the options of the fields.
 
 <!-- markdownlint-disable line-length -->
 
-| Operation                                                                       |                                                 |
-|---------------------------------------------------------------------------------|-------------------------------------------------|
-| [`addEnumOption`](g://metadata/fields/enum#add-an-option)                       | Adds an option to an `enum` field               |
-| [`editEnumOption`](g://metadata/fields/enum#edit-an-option)                     | Edits an `enum` field option                    |
-| [`reorderEnumOptions`](g://metadata/fields/enum#reorder-options)                | Re-orders the options on an `enum` field        |
-| [`removeEnumOption`](g://metadata/fields/enum#remove-an-option)                 | Removes an `enum` field options                 |
+| Operation                                                                       |                                                |
+| ------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [`addEnumOption`](g://metadata/fields/enum#add-an-option)                       | Adds an option to an `enum` field              |
+| [`editEnumOption`](g://metadata/fields/enum#edit-an-option)                     | Edits an `enum` field option                   |
+| [`reorderEnumOptions`](g://metadata/fields/enum#reorder-options)                | Re-orders the options on an `enum` field       |
+| [`removeEnumOption`](g://metadata/fields/enum#remove-an-option)                 | Removes an `enum` field options                |
 | [`addMultiSelectOption`](g://metadata/fields/multi-select#add-an-option)        | Adds an option to a `multiSelect` field        |
 | [`editMultiSelectOption`](g://metadata/fields/multi-select#edit-an-option)      | Edits a `multiSelect` field option             |
 | [`reorderMultiSelectOptions`](g://metadata/fields/multi-select#reorder-options) | Re-orders the options on a `multiSelect` field |

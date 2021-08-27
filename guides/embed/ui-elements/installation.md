@@ -158,21 +158,21 @@ For Box Preview, the sample would look slightly different.
 
 Most of the UI elements have 2 distinct versions.
 
-- A standard `*.js` file (for example `explore.js`) that includes React and
+* A standard `*.js` file (for example `explore.js`) that includes React and
   ReactDOM in the bundle.
-  - Use this when you are not building a React based app or you don't want to
+  * Use this when you are not building a React based app or you don't want to
     include the components as part of your app's build process.
-  - It includes React and ReactDOM libraries.
-  - The file size of this asset will be larger than the one below.
-- A smaller `*.no.react.js` file (for example `explore.no.react.js`) that does
+  * It includes React and ReactDOM libraries.
+  * The file size of this asset will be larger than the one below.
+* A smaller `*.no.react.js` file (for example `explore.no.react.js`) that does
   not get bundled with React and ReactDOM.
-  - Use this when both React and ReactDOM libraries are already loaded on the
+  * Use this when both React and ReactDOM libraries are already loaded on the
     application.
-  - These libraries expect a React and ReactDOM `>= 16.2` and `< 17`.
+  * These libraries expect a React and ReactDOM `>= 16.2` and `< 17`.
 
 <message>
 Only one of the 2 `js` files, and the additional `css` file need to be added
-to a project.
+to a project.</message>
 
 </message>
 
@@ -195,8 +195,8 @@ steps.
 Either fork the repository and check out the version you want to serve or
 download the specific version as a zip.
 
-- Check out a specific version with `git checkout v2.69.0`.
-- Download a specific version as a zip from the [releases][preview-releases]
+* Check out a specific version with `git checkout v2.69.0`.
+* Download a specific version as a zip from the [releases][preview-releases]
   page.
 
 ### 2. Install dependencies
@@ -216,9 +216,9 @@ folder as `2.69.0`.
 For example, if you self-host using a `box-assets` directory, these URLs must
 be accessible:
 
-- `https://cdn.YOUR_SITE.com/box-assets/2.69.0/en-US/preview.js`
-- `https://cdn.YOUR_SITE.com/box-assets/third-party/text/0.114.0/papaparse.min.js`
-- `https://cdn.YOUR_SITE.com/box-assets/third-party/model3d/1.12.0/three.min.js`
+* `https://cdn.YOUR_SITE.com/box-assets/2.69.0/en-US/preview.js`
+* `https://cdn.YOUR_SITE.com/box-assets/third-party/text/0.114.0/papaparse.min.js`
+* `https://cdn.YOUR_SITE.com/box-assets/third-party/model3d/1.12.0/three.min.js`
 
 ## Authentication
 
@@ -254,13 +254,23 @@ you encounter under the "Issues" tab with clear steps to reproduce. This
 repository also holds a list of [releases][releases].
 
 [cors]: g://security/cors
+
 [downscope]: g://authentication/tokens/downscope
+
 [devtoken]: g://authentication/tokens/developer-tokens
+
 [npm]: https://www.npmjs.com/package/box-ui-elements
+
 [polyfill]: https://cdn01.boxcdn.net/polyfills/core-js/2.5.3/core.min.js
+
 [gh]: https://github.com/box/box-ui-elements
+
 [releases]: https://github.com/box/box-ui-elements/releases
+
 [npm]: https://www.npmjs.com/package/box-ui-elements
+
 [downscope]: g://authentication/tokens/downscope
+
 [scopes]: g://api-calls/permissions-and-errors/scopes
+
 [preview-releases]: https://github.com/box/box-content-preview/releases

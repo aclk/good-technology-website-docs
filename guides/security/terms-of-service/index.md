@@ -29,7 +29,7 @@ within which all users are allowed to work with an enterprise's data in Box.
 
 There are currently two types of Terms of Service for any enterprise that can be
 enabled independently. The **Managed Terms of Service** can be
-enabled for the enterprise's own users, where the **External Terms of Service*
+enabled for the enterprise's own users, where the \*_External Terms of Service_
 can be enabled for users from other enterprises that collaborated in on the
 primary enterprise's data.
 
@@ -80,10 +80,12 @@ The following scopes should be granted to the application in order to take the
 outlined actions.
 
 * **Manage Enterprise Properties**: Required to enable or edit the
-enterprise's settings for Terms of Services as well as to view them for
-external users.
+  enterprise's settings for Terms of Services as well as to view them for
+  external users.
 * **Manage Users**: Required to accept Terms of Services for other users.
 
 [euserstatuses]: e://get-terms-of-service-user-statuses
+
 [euserstatuses_put]: e://put-terms-of-service-user-statuses-id
+
 [euserstatuses_post]: e://post-terms-of-service-user-statuses

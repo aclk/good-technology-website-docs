@@ -37,4 +37,5 @@ Applications can also access shared items using the
 <!-- i18n-enable localize-links -->
 
 [community_create_shared_link]: https://community.box.com/t5/Using-Shared-Links/Creating-Shared-Links/ta-p/19523
+
 <!-- i18n-disable localize-links -->

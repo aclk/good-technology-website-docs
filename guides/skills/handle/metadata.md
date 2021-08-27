@@ -41,7 +41,7 @@ Box currently supports 4 kinds of cards.
 <!-- markdownlint-disable line-length -->
 
 |                                         |                                                                                                                                 |                                        |
-|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Keyword](r://keyword-skill-card)       | Displays a list of keywords next to the file.                                                                                   | ![Image](./skills-card-keyword.png)    |
 | [Timeline](r://timeline-skill-card)     | Displays a set of text/images, and when clicked shows when those images appear in a timeline.                                   | ![Image](./skills-card-timeline.png)   |
 | [Transcript](r://transcript-skill-card) | Displays a transcript with the corresponding timestamps.                                                                        | ![Image](./skills-card-transcript.png) |

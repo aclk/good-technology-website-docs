@@ -59,7 +59,7 @@ that Box's servers can use this as the `invocation_url`.
   [Microsoft Azure Functions][azure_functions] are a natural fit for these kind
   of sporadic events. The serverless functions will only run and be billed when
   the event is being processed.
-  ** **Traditional application hosting** - Traditional application hosting
+  \*\* **Traditional application hosting** - Traditional application hosting
   solutions, such as [Heroku][heroku], [Firebase][firebase], [AWS][aws] or
   [GCP][gcp] are other viable options if serverless technology is not preferred.
   These applications will be hosted on their respective services and have an
@@ -72,16 +72,22 @@ following tasks.
 
 1. Capture the event notification from Box.
 2. Send the binary data for the Box file (or its URL) to a processing
-service
+   service
 3. Listen for the response from the processing service.
 4. Format the response from the processing service into a Box metadata
-format.
+   format.
 5. Apply the new metadata back to the file stored on Box.
 
 [aws_lambda]: https://aws.amazon.com/lambda/
+
 [google_functions]: https://cloud.google.com/functions/
+
 [azure_functions]: https://azure.microsoft.com/en-us/services/functions/
+
 [heroku]: https://www.heroku.com/
+
 [firebase]: https://firebase.google.com/
+
 [aws]: https://aws.amazon.com/
+
 [gcp]: https://cloud.google.com/functions/

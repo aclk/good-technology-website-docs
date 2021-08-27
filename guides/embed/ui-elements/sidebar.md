@@ -196,11 +196,11 @@ sidebar.removeAllListeners();
 
 <!-- markdownlint-disable line-length -->
 
-| Parameter | Type   | Description                                                                                                                                                               |
-| --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `fileId`  | String | Box File ID. This will be the ID of the file for which you want the sidebar.                                                                                              |
+| Parameter | Type   | Description                                                                                                                                                              |
+| --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `fileId`  | String | Box File ID. This will be the ID of the file for which you want the sidebar.                                                                                             |
 | `token`   | String | Box API access token to use. It can have read/write access to the file above. The value passed in for the token is assumed to never expire while the sidebar is visible. |
-| `options` | Object | Additional options. For example, `sidebar.show(FILE_ID, TOKEN, {hasProperties: true})` would be used to show file properties in the sidebar.                              |
+| `options` | Object | Additional options. For example, `sidebar.show(FILE_ID, TOKEN, {hasProperties: true})` would be used to show file properties in the sidebar.                             |
 
 <!-- markdownlint-enable line-length -->
 
@@ -262,4 +262,5 @@ more, see [Dedicated Scopes for Box UI Elements][scopes].
 <!-- markdownlint-enable line-length -->
 
 [downscope]: guide://authentication/tokens/downscope
+
 [scopes]: guide://api-calls/permissions-and-errors/scopes

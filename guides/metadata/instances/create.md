@@ -188,9 +188,15 @@ the available options on the field.
 </Message>
 
 [fields]: g://metadata/fields
+
 [scopes]: g://metadata/scopes
+
 [e_on_file]: e://post_files_id_metadata_id_id
+
 [e_on_folder]: e://post_folders_id_metadata_id_id
+
 [g_list_templates]: g://metadata/templates/list
+
 [g_list_instances_item]: g://metadata/instances/list
+
 [g_get_metadata_template]: g://metadata/templates/get

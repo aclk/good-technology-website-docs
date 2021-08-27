@@ -74,7 +74,7 @@ the information for the `​from`, `query`, and `order_by​` parameters.
 <!-- markdownlint-disable line-length -->
 
 |                   |                                                                                                                                                                                    |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Query description | Returns files of the type Customer Submission which are associated with a specific Account Number and for which the Status is Pending. Orders the response by the Submission Date. |
 | `from`            | `enterprise_123456.customerInfo`                                                                                                                                                   |
 | `query`           | `accountNumber = :argAccountNum AND status = :argStatus`                                                                                                                           |

@@ -58,11 +58,11 @@ Box Edit requires additional setup in order to be integrated into a custom
 application. Box Edit uses the desktop application [Box Tools][tools] in order
 to open content locally.
 
-- Requests must use a secure connection (from an `https` domain)
-- The application's domain must be allowed by Box Tools. Instructions can be
+* Requests must use a secure connection (from an `https` domain)
+* The application's domain must be allowed by Box Tools. Instructions can be
   found [here][custom-domains]. The ideal workflow is to bundle these steps
   within an installer that also installs Box Tools.
-- Safari requires a browser extension to connect to box tools. More details can
+* Safari requires a browser extension to connect to box tools. More details can
   be found [here][safari].
 
 ## G Suite
@@ -154,10 +154,10 @@ curl -X GET \
 To add an app integration to a valid app user, three pieces of information are
 required:
 
-- A valid [Service Account](g://getting-started/user-types/service-account/)
+* A valid [Service Account](g://getting-started/user-types/service-account/)
   Access Token.
-- The ID of the app user to be assigned the integration
-- The ID of the app integration to assign to the user
+* The ID of the app user to be assigned the integration
+* The ID of the app integration to assign to the user
 
 <Message warning>
 
@@ -310,10 +310,10 @@ To run integrations with downscoped tokens, you must include the
 `item_execute_integration` scope as well as the scope required by the specific
 integration you would like to use.
 
-- **Google**: `item_readwrite` on the parent folder
-- **Adobe**: `root_readwrite`
-- **Box Edit**: `item_readwrite` on the parent folder.
-- **Box Edit Single File Collaboration**: `item_readwrite` on the file.
+* **Google**: `item_readwrite` on the parent folder
+* **Adobe**: `root_readwrite`
+* **Box Edit**: `item_readwrite` on the parent folder.
+* **Box Edit Single File Collaboration**: `item_readwrite` on the file.
 
 More information on scopes can be found [here][scopes].
 
@@ -392,6 +392,7 @@ contentOpenWith.removeAllListeners();
 | `onError`             | `Function`     | A callback that executes when an error occurs.                                                                                                                                                                                                             |
 | `requestInterceptor`  | `Function`     | Function to intercept requests. For an example see [this CodePen](https://codepen.io/box-platform/pen/jLdxEv). Our underlying XHR library is `axios.js` and we follow a [similar approach for interceptors](https://github.com/axios/axios#interceptors).  |
 | `responseInterceptor` | `Function`     | Function to intercept responses. For an example see [this CodePen](https://codepen.io/box-platform/pen/jLdxEv). Our underlying XHR library is `axios.js` and we follow a [similar approach for interceptors](https://github.com/axios/axios#interceptors). |
+
 <!-- i18n-disable localize-links -->
 
 <Message warning>
@@ -412,16 +413,21 @@ using `openWith.addListener('execute', callback)` and
 <!-- markdownlint-enable line-length -->
 
 [scopes]: guide://api-calls/permissions-and-errors/scopes
+
 <!-- i18n-enable localize-links -->
 
 [community]: https://support.box.com/hc/en-us/articles/360043696994-Introducing-Box-for-G-Suite
+
 [tools]: https://support.box.com/hc/en-us/categories/360003188014-Box-Tools
+
 <!-- i18n-disable localize-links -->
 
 [custom-domains]: g://embed/ui-elements/custom-domains
+
 <!-- i18n-enable localize-links -->
 
 [safari]: https://support.box.com/hc/en-us/articles/360043697334-Installing-Box-Tools
+
 <!-- i18n-disable localize-links -->
 
 [service-account]: g://getting-started/user-types/service-account/

@@ -43,4 +43,5 @@ The Box API allows for device pins to be inspected and removed.
 <!-- i18n-enable localize-links -->
 
 [community]: https://support.box.com/hc/en-us/articles/360043693814-Device-Pinning-Settings
+
 <!-- i18n-disable localize-links -->

@@ -130,6 +130,7 @@ will now see `Current user name: {{USERNAME}}` output to the browser.
 <Message danger>
 
 # Incomplete previous step
+
 Please select a preferred language / framework in step 1 to get started.
 
 </Message>
@@ -142,15 +143,15 @@ You've reached the end of this Quick Start guide. By now you should have taken
 the following steps.
 
 1. [Created a web application scaffold][step1].
-1. [Setup and configured an Okta application][step2] and created
+2. [Setup and configured an Okta application][step2] and created
    a first user that could be used to log into the web app.
-1. [Setup and configured a Box application][step3] so that the
+3. [Setup and configured a Box application][step3] so that the
    web app can connect to Box.
-1. [Created a log in flow for the web application][step4],
+4. [Created a log in flow for the web application][step4],
    allowing the Okta user to log in.
-1. [Added a check to find an existing Box user][step5], and optionally create a
+5. [Added a check to find an existing Box user][step5], and optionally create a
    Box user the first time that Okta user logs into the web application.
-1. [And finally, ran the application][step6] and saw
+6. [And finally, ran the application][step6] and saw
    the complete flow in action.
 
 ## Next Steps
@@ -160,15 +161,20 @@ more advanced capabilities that may be attached into the user creation and
 access process.
 
 * [User provisioning](g://users/provision/) best practices for advanced user
- folder architecture setup.
+  folder architecture setup.
 * [User deprovisioning](g://users/deprovision/) best practices cleaning up
- inactive users and transferring user content to another account.
+  inactive users and transferring user content to another account.
 * [Uploading content](g://uploads/) into Box, including running preflight
- checks and large file (chunked) uploading.
+  checks and large file (chunked) uploading.
 
 [step1]: g://sso-identities-and-app-users/connect-okta-to-app-users/scaffold-application-code/
+
 [step2]: g://sso-identities-and-app-users/connect-okta-to-app-users/configure-okta/
+
 [step3]: g://sso-identities-and-app-users/connect-okta-to-app-users/configure-box/
+
 [step4]: g://sso-identities-and-app-users/connect-okta-to-app-users/logging-into-app/
+
 [step5]: g://sso-identities-and-app-users/connect-okta-to-app-users/find-or-create-box-users/
+
 [step6]: g://sso-identities-and-app-users/connect-okta-to-app-users/run-the-app/
